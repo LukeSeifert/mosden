@@ -267,7 +267,6 @@ class PRKE:
         plt.ylabel(f'Reactivity')
         plt.savefig(f'compare_reactivity.png')
         plt.close()
-        
 
         return
     

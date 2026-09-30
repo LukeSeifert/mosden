@@ -53,8 +53,6 @@ def bar_plots(base_df: pd.DataFrame):
 
     bar_plot_gen(iaea_df, nu, nu_err, hl, hl_err, cfy, save_mod='iaea')
 
-
-    
     return None
 
 def heatmap_plot(base_df: pd.DataFrame):
